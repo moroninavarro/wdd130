@@ -1,9 +1,13 @@
 main {
   max-width: 840px;
 }
+nav{
+  background-color: rgb(115, 183, 238);
+  padding: 10px;
+}
 
 nav a {
-  color: rgb(105, 0, 0);
+  color: rgb(0, 0, 0);
   padding: 10px;
   display: block;
 }
