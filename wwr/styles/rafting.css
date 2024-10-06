@@ -6,6 +6,10 @@
     --accent2-color:#0B81F0;
     
     --paragraph-font:Roboto, Anton;
+    font-family : 'Anton';
+    font-style : normal;
+    font-weight : 400;
+    font-display : swap;
 }
 
 
