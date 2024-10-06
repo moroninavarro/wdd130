@@ -1,0 +1,102 @@
+
+:root {
+    --primary-color: #EBE6CB ;
+    --secondary-color:#A3BBBD;
+    --accent1-color: #5DBFFC;
+    --accent2-color:#0B81F0;
+    
+    --paragraph-font:Roboto, Anton;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+nav a {
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    }
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: right;
+}
+
+
+
+
+h1 {
+    color: rgba(0, 0, 0, 0.767);
+    font-style: italic;
+    position: absolute;
+    margin: 1rem;
+    background-color: #5373db67;
+    text-align: center;
+}
+
+article img {
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    margin: auto;
+}
+article {
+    position: absolute;
+    top:-20px;   
+    height: 1;
+    margin: 10rem;
+    background-color: #b0beec67;
+    text-align: left;
+    }
+
+
+
+img{
+    position: relative;
+    height: auto;
+    
+}
+
+
+
+h2 {
+    
+    color: rgb(172, 0, 0);
+    padding: 10px;
+    font-style: italic;
+}
+
+
+main {
+	max-width:1200px ;
+	margin: 2rem auto;
+	font-family: Roboto;
+    color: rgb(0, 0, 0);
+    position: relative;
+    float: left;
+    padding: 1rem;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    float: left;
+    clear: both;
+
+  }
+
+footer img {
+    width: 50px;
+}
+ 
+
