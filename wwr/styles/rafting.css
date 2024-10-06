@@ -6,10 +6,7 @@
     --accent2-color:#0B81F0;
     
     --paragraph-font:Roboto, Anton;
-    font-family : 'Anton';
-    font-style : normal;
-    font-weight : 400;
-    font-display : swap;
+   
 }
 
 
@@ -54,7 +51,7 @@ article img {
 article {
     position: absolute;
     top:-20px;   
-    height: 1;
+    height: 1px;
     margin: 10rem;
     background-color: #b0beec67;
     text-align: left;
