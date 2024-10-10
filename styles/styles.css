@@ -17,15 +17,21 @@
 main {
   max-width: 840px;
 }
+
 nav{
   background-color: rgb(115, 183, 238);
-  padding: 10px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
+  font-size: 20px;
 }
 
 nav a {
   color: rgb(0, 0, 0);
   padding: 10px;
   display: block;
+  font-family: Roboto, Arial, sans-serif;
 }
 
 
@@ -65,7 +71,8 @@ aside img {
 
 aside h2 {
   position: absolute;
-  left: 120px;
+  left: 125px;
+
 }
 
 
