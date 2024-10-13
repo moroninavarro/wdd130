@@ -93,7 +93,7 @@ header a {
     color: rgb(0, 0, 0);
     position: relative;
     padding: 10rem;
-    top: -60px;
+    top: -190px;
     text-align: center;
 }
 
@@ -123,44 +123,39 @@ h2 {
     text-align: center;
     float: right;
     top:1px;
+    flex-wrap: wrap;
 }
 
 section p {
     position:relative;
     top:-400px;
-    justify-content: space-around;
+    justify-content: center;
     float: right;
-    
+    flex-wrap: wrap;
     background-color: #d1a8a8;
     border: #000000;
 }
 
 
-figure  {
+section  {
     border: thin #ffffff solid;
     display: flex;
     flex-flow: column;
-    padding: 5px;
+    padding: 2px;
     max-width: 220px;
     margin: auto;
+    flex-wrap: wrap;
+   
+    height: 50px;
+    width: 1px;
+    align-self: flex-end;
   }
   
-section figure {
-    
-    display: flex;
-    
+  figure img{
+    position: relative;
+    float: left;
+  }
 
-    margin: 1rem;
-    width: 1px;
-    height: 100px;
-	justify-content: left;
-    
-    clear: both;
-    flex-wrap: wrap;
-    
-    max-width: 220px;
-    max-height: 150px;
-}
 
 img {
     position: relative;
@@ -170,15 +165,15 @@ img {
     height: 100px;
     margin: 1rem;
     float: left;
-    flex-wrap: wrap;
     
+
 }
 
 figcaption {
     background-color: #000000;
     color: #ffffff;
     font: italic smaller sans-serif;
-    padding: 2px;
+    padding: 1px;
     text-align: center;
     
     
@@ -206,11 +201,12 @@ footer img{
     float: right;
     justify-content: space-between;
     align-items: flex-end;
-    top: -80px;
+    top: 1px;
     
 }
  
 footer{
     background-color: #d1a8a8;
     border: #000000;
+    
 }
