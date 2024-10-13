@@ -97,7 +97,7 @@ header a {
     text-align: center;
 }
 
-.history h2 {
+section h2 {
     
     color: rgb(172, 0, 0);
     padding: 1px;
@@ -107,36 +107,33 @@ header a {
     text-align: right;
     justify-content: center;
     float: left;
-    top: -500px;
+    top: -300px;
     border: #000000;
     
     
 }
 
 
-
-.history p {
-    position:relative;
-    top:-500px;
-    justify-content: right;
-    float: right;
-    
-    background-color: #d1a8a8;
-    border: #000000;
-}
-
-
-
-section h2 {
+h2 {
     color: rgb(172, 0, 0);
     padding: 1px;
     margin: 3rem;
     font-style: italic;
     position: relative;
-    text-align: right;
-    top:800px;
+    text-align: center;
+    float: right;
+    top:1px;
 }
 
+section p {
+    position:relative;
+    top:-400px;
+    justify-content: space-around;
+    float: right;
+    
+    background-color: #d1a8a8;
+    border: #000000;
+}
 
 
 figure  {
@@ -174,6 +171,7 @@ img {
     margin: 1rem;
     float: left;
     flex-wrap: wrap;
+    
 }
 
 figcaption {
