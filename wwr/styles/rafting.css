@@ -59,7 +59,7 @@ header a {
     font-style: italic;
     position: absolute;
     margin: 8rem;
-    top: 15px;
+    top: 1px;
     float: right;
     text-align: center;
     
@@ -119,11 +119,11 @@ h2 {
     padding: 1px;
     margin: 3rem;
     font-style: italic;
-    position: relative;
+    position: absolute;
     text-align: center;
     float: right;
-    top:1px;
-    flex-wrap: wrap;
+    top:850px;
+    
 }
 
 section p {
@@ -146,12 +146,11 @@ section  {
     max-width: 220px;
     margin: auto;
     flex-wrap: wrap;
-    top: 500px;
-    height: 50px;
+    justify-content: left;
+    height: 400px;
     width: 100px;
     
   }
-  
 
 
 img {
@@ -172,8 +171,6 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 1px;
     text-align: center;
-    
-    
   }
     
 
@@ -198,7 +195,7 @@ footer img{
     float: right;
     justify-content: space-between;
     align-items: flex-end;
-    top: 1px;
+    top: -90px;
     
 }
  
@@ -206,4 +203,87 @@ footer{
     background-color: #d1a8a8;
     border: #000000;
     
+}
+
+.map iframe{
+    position: relative;
+    border-style: hidden;
+    top: 400px;
+}
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+   
+}
+
+label {
+    text-align:right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button{
+    margin: 1rem;
+    background-color: rgb(38, 0, 255);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+ }
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 5.5rem;
+    
+}
+
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
 }
