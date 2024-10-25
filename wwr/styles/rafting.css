@@ -49,7 +49,7 @@ header a {
     height: 500px;
     position: relative;
     float: right;
-    background-color: #29262691;
+    background-color: #8bb8ca;
 }
 
 
@@ -79,7 +79,7 @@ header a {
 
 .hero article p{
     position: relative;
-    background-color: #b0beec67;
+    background-color: #b0beecd5;
     text-align: left;
     float: left;
     top: -500px;
@@ -297,9 +297,11 @@ button:hover {
 }
 
 article p {
-    position: relative;
-    background-color: #b0beec67;
+    display: flex;
+    position:relative;
+    background-color: #b0c3ff;
     text-align: left;
-    float: right;
-    top: -300px;
+    float: left;
+    justify-content: space-between;
+    top: 700px;
 }
