@@ -80,8 +80,8 @@ header a {
 .hero article p{
     position: relative;
     background-color: #b0beecd5;
-    text-align: left;
-    float: left;
+    text-align: center;
+    float: right;
     top: -500px;
 
 }   
