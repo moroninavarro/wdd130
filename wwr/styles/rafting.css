@@ -190,6 +190,8 @@ footer p{
     justify-content: space-between;
     align-items: flex-end;
     top: 600px;
+    text-decoration: wavy;
+    
 
   }
 
@@ -202,13 +204,21 @@ footer img{
     justify-content: space-between;
     align-items: flex-end;
     top: -90px;
-    
+    text-decoration: wavy;
+    color: #000000;
 }
  
-footer{
+footer {
     background-color: #d1a8a8;
     border: #000000;
+    color: #000000;
+    text-decoration: wavy;
     
+}
+
+footer a{
+    color: #000000;
+    text-decoration: wavy;
 }
 
 .map iframe{
